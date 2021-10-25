@@ -1,0 +1,44 @@
+{
+    "name": "Contador App Vue",
+    "short_name": "Contador Vue",
+    "description": "Contador es una app del curso vue3",
+    "background_color": "#35495e",
+    "theme_color": "#41b883",
+    "start_url": "./?umt_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./img/image48.png",
+            "sizes":"48x48",
+            "type": "image/png"
+        },        
+        {
+            "src": "./img/image64.png",
+            "sizes":"64x64",
+            "type": "image/png"
+        },        
+        {
+            "src": "./img/image128.png",
+            "sizes":"128x128",
+            "type": "image/png"
+        },        
+        {
+            "src": "./img/image256.png",
+            "sizes":"256x256",
+            "type": "image/png"
+        },        
+        {
+            "src": "./img/image512.png",
+            "sizes":"512x512",
+            "type": "image/png"
+        },        
+        {
+            "src": "./img/image1024.png",
+            "sizes":"1024x1024",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <!-- Metadata para PWA-->
+    <!-- Barra de color ANDROID-->
+    <meta name="theme-color" content="#41b883" /> 
+    <!-- Optimizar el SEO -->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" /> 
+    <!-- Barra para IOS-->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!--Iconos-->
+    <link rel="shortcut icon" href="./img/image48.png" type="image/png" /> 
+    <link rel="apple-touch-icon" href="./img/image48.png" />
+    <link rel="apple-touch-startup-image" href="./img/image48.png" />
+    <link rel="stylesheet" href="./manifest.json">
+</head>
+
+<body>
+    <div id="app" class="app">
+        <h1 class="title">{{title}}</h1>
+        <hr>
+        <h3 class="count">{{count}}</h3>
+        <hr>
+
+        <div>
+            <button v-on:click="modCount('dis')" class="buttons"> -1 </button>
+            <button v-on:click="reStart" class="buttons"> 0 </button>
+
+            <button @click="modCount" class="buttons"> +1 </button>
+        </div>
+
+    </div>
+    <script src="./load.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mountApp.js"></script>
+</body>
+
+</html>
